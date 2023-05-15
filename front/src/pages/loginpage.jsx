@@ -31,7 +31,7 @@ function LoginPage() {
   useEffect(() => {
     const users = async () => {
       try {
-        const res = await fetch("http://localhost:3000");
+        const res = await fetch("https://momsrecipe-api.onrender.com");
         setUsers(await res.json());
       } catch (err) {
         console.log(err);

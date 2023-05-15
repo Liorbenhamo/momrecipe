@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const Users = require("./Models/Users");
 const Recipe = require("./Models/Recipe");
 const cors = require("cors");
+
 mongoose
   .connect(
     "mongodb+srv://liorbenhamo:0502730029@cluster0.hzf3enx.mongodb.net/?retryWrites=true&w=majority"

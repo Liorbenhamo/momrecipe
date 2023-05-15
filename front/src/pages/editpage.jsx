@@ -38,7 +38,7 @@ function EditPage() {
   const handleclick = async () => {
     console.log("hello");
     console.log(speinfo);
-    await axios.put("http://localhost:3000/putre", {
+    await axios.put("https://momsrecipe-api.onrender.com/putre", {
       _id: info,
       recipename: name,
       imgurl: photo,

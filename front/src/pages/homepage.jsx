@@ -13,7 +13,7 @@ function HomePage() {
   useEffect(() => {
     const test = async () => {
       try {
-        const res = await fetch("http://localhost:3000/recipedata");
+        const res = await fetch("https://momsrecipe-api.onrender.com");
         info2.setJson(await res.json());
       } catch (err) {
         console.log(err);

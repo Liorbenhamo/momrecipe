@@ -19,7 +19,7 @@ function RecipePage() {
   );
   const deleterecipe = async () => {
     try {
-      await axios.delete("http://localhost:3000/deletere", {
+      await axios.delete("https://momsrecipe-api.onrender.com/deletere", {
         data: {
           _id: speinfo[0]._id,
         },

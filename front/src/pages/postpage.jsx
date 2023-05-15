@@ -27,7 +27,7 @@ function PostPage() {
   const handleclick = async () => {
     console.log("hello");
     try {
-      await axios.post("http://localhost:3000/addrecipe", {
+      await axios.post("https://momsrecipe-api.onrender.com/addrecipe", {
         recipename: name,
         imgurl: photo,
         ingredints: ingredints,
